@@ -1,0 +1,35 @@
+//C#'da bool(eans) true ya da false yani doğru ya da yanlış veri tipini içerir.
+
+       //Bool olarak örnek;
+       bool z = true;
+       console.WriteLine(z);
+        
+        //Booleans örnekleri;
+        int z = 10 < 9;
+        console.WriteLine(z); //false
+        
+        int x = 15 > 14;
+        console.WriteLine(x); //true
+        
+        int c = 0 == 0;
+        console.WriteLine(c); //true
+        
+        //daha komplike örnekler;
+        int Yasim = 25;
+        int EhliyetYasi = 18;
+        Console.WriteLine(Yasim >= EhliyetYasi);
+        
+        int Yasim = 25;
+        int EhliyetYasi = 18;
+
+        if (Yasim >= EhliyetYasi) 
+        {
+          Console.WriteLine("Ehliyet alabilecek yaştasınız!");
+        } 
+        else 
+        {
+          Console.WriteLine("Ehliyet alabilecek kadar yaşlı değilsiniz.");
+        }
+
+       console.ReadLine();
+       
